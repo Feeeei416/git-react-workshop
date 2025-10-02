@@ -36,7 +36,7 @@
 }
 
 .card__button {
-  background: #6c63ff;
+  /* background: #6c63ff;
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -44,8 +44,21 @@
   cursor: pointer;
   font-size: 0.9rem;
   transition: background 0.3s ease;
+  margin-right: 10px; */
+  margin-top: 30px;
+  background: #fff;
+  color: #379ad6;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 10px;
 }
 
 .card__button:hover {
-  background: #5548d0;
+  background: #379ad6;
+  color: #fff;
+  transform: scale(1.05);
 }

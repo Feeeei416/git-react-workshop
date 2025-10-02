@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./Card.css";
+import '../styles/card.css'
 
-export default function Card({ image, title, description }) {
+export default function Card({ image, title, description, link }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
@@ -22,6 +22,9 @@ export default function Card({ image, title, description }) {
         >
           {expanded ? "Show Less" : "Read More"}
         </button>
+
+        /*Add button here*/
+        
       </div>
     </div>
     </>
